@@ -6,4 +6,4 @@ scraper.rb creates a yaml catalog of words from [Phrontistery.info](http://phron
 
 Set your Twitter access tokens in twitterconfig.rb
 
-Run pickaword.rb to select a word from the yaml catalog, tweet it, and log it. Uncomment the last two lines to delete words from the catalog after tweeting/logging and prevent repeats. 
+Run pickaword.rb to select a word from the yaml catalog, tweet it, and log it. Uncomment the last two lines to delete words from the catalog after tweeting/logging and prevent repeats.
