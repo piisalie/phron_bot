@@ -1,0 +1,8 @@
+project/
+  bin/            Any executables
+  config/         Configuration information
+  data/           Raw data
+  doc/            Any project documentation
+  lib/            This is where 90%+ of you code belongs
+  test/ or spec/  Automated tests go here
+  vendor/         Some code we need that's not ours
