@@ -1,17 +1,17 @@
 module PhronBot
   class PickWord
     def initialize
-     @dictionary = Dictionary.new
-     @dictionary.load
-     @random_number = rand(1..@dictionary.length)
+      @dictionary = Dictionary.new
+      @dictionary.load
+      @pick = RandomNumber.new(@dictionary.length)
     end
 
     def word
-      @dictionary.word(@random_number).capitalize
+      @dictionary.word(@pick.number).capitalize
     end
 
     def definition
-      @dictionary.definition(@random_number)
+      @dictionary.definition(@pick.number)
     end
   end
 end
